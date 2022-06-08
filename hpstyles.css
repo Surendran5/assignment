@@ -1,0 +1,59 @@
+body {
+  width: 1200px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  height: 760px;
+}
+.price,.detail {
+  font-size: 1.875rem;
+  font-weight: bold;text-align:center;
+
+}
+.buy {
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(46, 139, 226);
+  cursor: pointer;
+  padding: 10px;
+  width: 40%;
+}
+.add{
+  background-color: rgb(6, 6, 104);
+}
+.buy:hover {
+  color: black;
+  background-color: white;
+}
+.details {
+  font-size: 1.375rem;
+  text-align: :left;
+}
+.card1{
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+   border-radius: 300px ; 
+   background-color: wheat;
+  width: 500px;
+}
+h1{
+  font-size: 2.5rem;
+  width: 100%;
+
+}
+.card{
+  width:600px;
+  
+}
+ @media screen and (max-height: 500px) and (min-height: 400px){
+  .card1{
+ background-color: aqua;
+  }
+} 
